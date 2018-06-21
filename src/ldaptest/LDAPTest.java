@@ -35,6 +35,7 @@ public class LDAPTest {
                     NamingEnumeration<? extends Attribute> all = attributes.getAll();
                     while(all.hasMore())
                         System.out.println(all.next());
+                    System.out.println("==============================");
                     /* print each value */
                     //                    for (NamingEnumeration e = attr.getAll(); e.hasMore(); System.out.println("value: " + e.next()));
                 }
